@@ -1,20 +1,15 @@
 *{
-    background-color: rgb(255, 255, 255);
+   
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 }
 header{
-    margin: 35px;
     
-}
-a{
-text-decoration: none;
-font-size: 20px;
-background-color: rgb(0, 204, 255);
-padding: 15px;
-border-radius: 10px;
-color: white;
-}
+    margin: 35px;
+    display: flex;
+    justify-content: space-between;
+align-items: center;}
+
 
 h1{
     background-color: rgb(0, 204, 255);
@@ -85,4 +80,42 @@ position: relative;
 }
 .h1-Result{
     font-size: 50px;   
+}
+#timer{
+    display: flex;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    padding: 15px 30px;
+    font-size: 20px;
+    
+border-radius: 10px;
+    
+}
+h2{
+    background-color: rgb(0, 204, 255);
+    border-radius: 30px;
+    margin: 30px 0;
+    padding: 100px 0 0 0 ;
+    text-align: center;
+}
+
+p{
+    background-color: rgb(0, 204, 255); 
+    margin: 10px ;
+    text-align: center;
+    font-size: 15px;
+}
+#highscores{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(0, 204, 255);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    }
+#topTen{
+    padding-bottom: 0;
 }

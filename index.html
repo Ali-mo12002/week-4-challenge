@@ -11,9 +11,12 @@
 <body>
     <header>
         <section id="high-scores">
-            <a href="/highscores.html">High Scores</a>
+            <button id="highscores" class="show">High Scores</button>
+            
         </section>
-        <section id="timer"></section>
+        <section id="timer-section">
+            <h5 id="timer">60</h5>
+        </section>
     </header>
     <main>
         <section id="welcome" class="show">
@@ -29,9 +32,11 @@
 
             <h4 id="result"></h4>
         </section>
-        <section id="score" class="hidden">
+        <section id="summary" class="hidden">
             <h2 id="review"></h2>
-            <h3 id="position"></h3>
+            <section id="scores-section">
+
+            </section>
 
         </section>
         <section id="right" class="hidden">
@@ -42,7 +47,12 @@
             <h1 class="h1-result">Unfortunatly You Were Incorrect. Better Luck Next Time.</h1>
             <button class="next1">Next</button>
         </section>
+        <section id="section-highscore" class="hidden">
+            <h1 id="topTen">Top Ten Scores </h1>
+            <section class="scores-section">
 
+            </section>
+        </section>
     </main>
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js" ></script>
