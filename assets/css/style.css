@@ -1,0 +1,88 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+header{
+    margin: 35px;
+    
+}
+a{
+text-decoration: none;
+font-size: 20px;
+background-color: rgb(0, 204, 255);
+padding: 15px;
+border-radius: 10px;
+color: white;
+}
+
+h1{
+    background-color: rgb(0, 204, 255);
+    border-radius: 30px;
+    margin: 30px 0;
+    padding: 100px 0 ;
+    text-align: center;
+    
+}
+#name{
+    border: 3px solid white;
+    background-color: rgb(0, 204, 255);
+    border-radius: 10px;
+    width: 40%;
+    height:80px;
+    position: relative;
+    margin: 0 30%;
+    text-align: center;
+    
+}
+button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    position: relative;
+    margin: 50px 40%;
+    background-color: rgb(0, 204, 255);
+    border: 3px solid white;
+    
+}
+#name:focus{
+    border: 3px solid black;
+    outline-width: 0;
+}
+.hidden{
+    display: none;
+}
+.show{
+display: block;
+    justify-content: center;
+    background-color: rgb(0, 204, 255);
+    margin: 150px 200px 0;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.257), -5px -5px 50px rgba(0, 0, 0, 0.257);
+    
+}
+#quiz{
+height: 700px;
+margin: 0px 200px 10px;
+}
+#questions{
+    padding-bottom: 0;
+    height: 25%;
+    
+}
+.options{
+background-color: rgb(0, 204, 255);
+border: 3px solid white;
+border-radius: 10px;
+margin:5px 2.5% 15px;
+height: 20%;
+width: 95%;
+position: relative;
+}
+.options:hover{
+    border: 3px solid black;
+}
+.h1-Result{
+    font-size: 50px;   
+}

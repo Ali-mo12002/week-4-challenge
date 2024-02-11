@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+   
+</head>
+<body>
+    <header>
+        <section id="high-scores">
+            <a href="/highscores.html">High Scores</a>
+        </section>
+        <section id="timer"></section>
+    </header>
+    <main>
+        <section id="welcome" class="show">
+            <h1>The Football Quiz</h1>
+            <input type="text" id="name" placeholder="enter your name to begin"/>
+            <button id="start-button">Start The Quiz</button>
+        </section>
+        <section id="quiz" class="hidden">
+            <h1 id="questions"></h1>
+            <button id="option1" class="options">aaa</button>
+            <button id="option2" class="options">aaa</button>
+            <button id="option3" class="options">aaa</button>
+
+            <h4 id="result"></h4>
+        </section>
+        <section id="score" class="hidden">
+            <h2 id="review"></h2>
+            <h3 id="position"></h3>
+
+        </section>
+        <section id="right" class="hidden">
+            <h1 class="h1-result">Well Done You Are Correct!!!</h1>
+            <button class="next">Next</button>
+        </section>
+        <section id="wrong" class="hidden">
+            <h1 class="h1-result">Unfortunatly You Were Incorrect. Better Luck Next Time.</h1>
+            <button class="next1">Next</button>
+        </section>
+
+    </main>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js" ></script>
+</body>
+</html>
